@@ -7,16 +7,22 @@ const useAuthStore = create(
       token: null,
       role: null,
 
-      login: (token, role) => set({ token, role }),
+      login: (token, role) => {
+        set({ token, role });
+      },
 
-      logout: () => set({ token: null, role: null }),
+      logout: () => {
+        set({ token: null, role: null });
+      },
     }),
-
     {
       name: "auth-store",
 
+      // FIX HYDRATION + SSR + VERCEL storage issues
       storage: createJSONStorage(() => {
-        if (typeof window !== "undefined") return localStorage;
+        if (typeof window !== "undefined") {
+          return localStorage; // client-side only
+        }
         return {
           getItem: () => null,
           setItem: () => {},
