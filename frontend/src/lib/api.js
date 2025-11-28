@@ -5,8 +5,17 @@ const api = axios.create({
 });
 
 api.interceptors.request.use((config) => {
-  const token = localStorage.getItem("token");
-  if (token) config.headers.Authorization = `Bearer ${token}`;
+  try {
+    const authStore = JSON.parse(localStorage.getItem("auth-store"));
+    const token = authStore?.state?.token;
+
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+  } catch (err) {
+    console.error("Auth parse error", err);
+  }
+
   return config;
 });
 
