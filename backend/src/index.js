@@ -16,12 +16,12 @@ connectDB();
 
 const app = express();
 
-// FIXED: CORS WITH AUTHORIZATION SUPPORT
+// CORS WITH AUTHORIZATION SUPPORT
 app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://prou-fullstack-assessment.vercel.app" // <-- replace with yours
+      "https://pro-u-full-stack-assessment.vercel.app" 
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
