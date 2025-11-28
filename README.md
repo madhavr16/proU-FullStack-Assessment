@@ -170,8 +170,8 @@ Inside the `frontend/` directory:
 
 | Page | Screenshot Placeholder |
 | :--- | :--- |
-| 🔐 **Login Page** | (Insert screenshot here) |
-| 📝 **Register Page** | (Insert screenshot here) |
+| 🔐 **Login Page** | <img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/5866e50d-fd0f-4794-a638-b476e53fcba5" /> |
+| 📝 **Register Page** | <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/70b1c31d-0507-4e18-bc41-59a013ed0438" /> |
 | 📊 **Dashboard** | (Insert screenshot here) |
 | 👥 **Employees Page** | (Insert screenshot here) |
 | 📋 **Tasks Page** | (Insert screenshot here) |
