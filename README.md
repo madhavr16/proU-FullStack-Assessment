@@ -81,14 +81,14 @@ A full-stack employee & task management platform built as part of the **ProU Ful
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/madhavr16/proU-FullStack-Assessment.git
 cd proU-fullstack-assessment
 
 
 Or manually on GitHub: create repo, then:
 
 ```powershell
-git remote add origin https://github.com/<your-username>/<repo-name>.git
+git remote add origin https://github.com/madhavr16/proU-FullStack-Assessment.git
 git push -u origin main
 ```
 ### 2️⃣ Backend Setup (Node.js/Express)
@@ -186,14 +186,9 @@ Inside the `frontend/` directory:
 
 #### **Backend Hosting**
 * Render
-* Railway
-* Vercel Functions
-* AWS EC2 / Lambda
 
 #### **Frontend Hosting**
 * Vercel
-* Netlify
-* GitHub Pages
 
 ---
 
@@ -205,7 +200,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin [https://github.com/](https://github.com/)<username>/<repo-name>.git
+git remote add origin https://github.com/madhavr16/proU-FullStack-Assessment.git
 git push -u origin main
 ```
 
