@@ -4,16 +4,21 @@ const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
 });
 
+// INTERCEPTOR FOR ZUSTAND-PERSIST
 api.interceptors.request.use((config) => {
   try {
-    const authStore = JSON.parse(localStorage.getItem("auth-store"));
-    const token = authStore?.state?.token;
+    const raw = localStorage.getItem("auth-store");
+    if (!raw) return config;
+
+    const parsed = JSON.parse(raw);
+    const token = parsed?.state?.token; 
 
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
+      // console.log("ATTACHING TOKEN:", token); // optional test
     }
   } catch (err) {
-    console.error("Auth parse error", err);
+    console.error("AUTH PARSE ERROR:", err);
   }
 
   return config;
