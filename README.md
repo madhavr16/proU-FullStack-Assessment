@@ -172,9 +172,10 @@ Inside the `frontend/` directory:
 | :--- | :--- |
 | 🔐 **Login Page** | <img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/5866e50d-fd0f-4794-a638-b476e53fcba5" /> |
 | 📝 **Register Page** | <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/70b1c31d-0507-4e18-bc41-59a013ed0438" /> |
-| 📊 **Dashboard** | (Insert screenshot here) |
-| 👥 **Employees Page** | (Insert screenshot here) |
-| 📋 **Tasks Page** | (Insert screenshot here) |
+| 📊 **Dashboard** | <img width="1894" height="872" alt="image" src="https://github.com/user-attachments/assets/5d6f03ef-f1e2-4961-b384-c890f8d57834" /> |
+| 👥 **Employees Page** | <img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/0c22e371-9582-416d-a510-24edbb2d11db" /> |
+| 📋 **Tasks Page** | <img width="1918" height="874" alt="image" src="https://github.com/user-attachments/assets/bc3f02f3-892a-44ba-93c4-81a43aa81413" /> |
+| 📋 **Dark Mode** | <img width="1899" height="861" alt="image" src="https://github.com/user-attachments/assets/879312ed-b1b6-4c92-b8cb-018b6bb0f822" /> |
 
 ---
 
