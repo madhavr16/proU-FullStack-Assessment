@@ -1,17 +1,17 @@
-# ⭐ ProU Fullstack Assessment – Employee & Task Management System
+# ProU Fullstack Assessment – Employee & Task Management System
 
 A full-stack employee & task management platform built as part of the **ProU Fullstack Developer Assessment**, featuring:
 
-- 🔐 Secure authentication with role-based access  
-- 👥 Employee & task CRUD operations  
-- 📊 Dashboard analytics  
-- 🎨 Modern UI with dark/light mode  
-- 🌀 Smooth animated page transitions  
-- 📱 Fully responsive, elegant interface  
+- Secure authentication with role-based access  
+- Employee & task CRUD operations  
+- Dashboard analytics  
+- Modern UI with dark/light mode  
+- Smooth animated page transitions  
+- Fully responsive, elegant interface  
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### **Frontend**
 - React (Vite)
@@ -31,9 +31,9 @@ A full-stack employee & task management platform built as part of the **ProU Ful
 
 ---
 
-## 🏆 Key Features
+## Key Features
 
-### 🔐 Authentication & Role Management
+### Authentication & Role Management
 - Login & Register (with JWT)
 - Auto-login after registration  
 - Persistent authentication using Zustand + LocalStorage  
@@ -44,7 +44,7 @@ A full-stack employee & task management platform built as part of the **ProU Ful
 
 ---
 
-### 👥 Employee Management
+### Employee Management
 - Add, Edit, Delete employees  
 - Search + advanced filtering  
 - Pagination-ready backend  
@@ -52,7 +52,7 @@ A full-stack employee & task management platform built as part of the **ProU Ful
 
 ---
 
-### 📋 Task Management
+### Task Management
 - Task CRUD operations  
 - Assign tasks to employees  
 - Filter by priority & status  
@@ -60,7 +60,7 @@ A full-stack employee & task management platform built as part of the **ProU Ful
 
 ---
 
-### 📊 Dashboard & Analytics
+### Dashboard & Analytics
 - Task distribution pie chart  
 - Employee count  
 - Task progress overview  
@@ -68,7 +68,7 @@ A full-stack employee & task management platform built as part of the **ProU Ful
 
 ---
 
-### 🎨 UI & UX Enhancements
+### UI & UX Enhancements
 - Modern responsive layout  
 - Dark/Light theme toggle  
 - Smooth page transitions (Framer Motion)  
@@ -77,9 +77,9 @@ A full-stack employee & task management platform built as part of the **ProU Ful
 
 ---
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/madhavr16/proU-FullStack-Assessment.git
 cd proU-fullstack-assessment
@@ -91,7 +91,7 @@ Or manually on GitHub: create repo, then:
 git remote add origin https://github.com/madhavr16/proU-FullStack-Assessment.git
 git push -u origin main
 ```
-### 2️⃣ Backend Setup (Node.js/Express)
+### 2️. Backend Setup (Node.js/Express)
 
 Inside the `backend/` directory:
 
@@ -112,7 +112,7 @@ Inside the `backend/` directory:
 
 ---
 
-### 3️⃣ Frontend Setup (React/Vite)
+### 3️. Frontend Setup (React/Vite)
 
 Inside the `frontend/` directory:
 
@@ -131,7 +131,7 @@ Inside the `frontend/` directory:
 
 ---
 
-### 🛠️ API Endpoints Overview
+### API Endpoints Overview
 
 #### **Auth**
 
@@ -170,16 +170,16 @@ Inside the `frontend/` directory:
 
 | Page | Screenshot Placeholder |
 | :--- | :--- |
-| 🔐 **Login Page** | <img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/5866e50d-fd0f-4794-a638-b476e53fcba5" /> |
-| 📝 **Register Page** | <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/70b1c31d-0507-4e18-bc41-59a013ed0438" /> |
-| 📊 **Dashboard** | <img width="1894" height="872" alt="image" src="https://github.com/user-attachments/assets/5d6f03ef-f1e2-4961-b384-c890f8d57834" /> |
-| 👥 **Employees Page** | <img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/0c22e371-9582-416d-a510-24edbb2d11db" /> |
-| 📋 **Tasks Page** | <img width="1918" height="874" alt="image" src="https://github.com/user-attachments/assets/bc3f02f3-892a-44ba-93c4-81a43aa81413" /> |
-| 📋 **Dark Mode** | <img width="1899" height="861" alt="image" src="https://github.com/user-attachments/assets/879312ed-b1b6-4c92-b8cb-018b6bb0f822" /> |
+| **Login Page** | <img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/5866e50d-fd0f-4794-a638-b476e53fcba5" /> |
+| **Register Page** | <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/70b1c31d-0507-4e18-bc41-59a013ed0438" /> |
+| **Dashboard** | <img width="1894" height="872" alt="image" src="https://github.com/user-attachments/assets/5d6f03ef-f1e2-4961-b384-c890f8d57834" /> |
+| **Employees Page** | <img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/0c22e371-9582-416d-a510-24edbb2d11db" /> |
+| **Tasks Page** | <img width="1918" height="874" alt="image" src="https://github.com/user-attachments/assets/bc3f02f3-892a-44ba-93c4-81a43aa81413" /> |
+| **Dark Mode** | <img width="1899" height="861" alt="image" src="https://github.com/user-attachments/assets/879312ed-b1b6-4c92-b8cb-018b6bb0f822" /> |
 
 ---
 
-### ☁️ Deployment
+### Deployment
 
 #### **Database**
 * MongoDB Atlas
@@ -192,7 +192,7 @@ Inside the `frontend/` directory:
 
 ---
 
-### 🧭 GitHub Setup (Local → Remote)
+### GitHub Setup (Local → Remote)
 
 ```bash
 cd proU-fullstack-assessment
@@ -204,13 +204,55 @@ git remote add origin https://github.com/madhavr16/proU-FullStack-Assessment.git
 git push -u origin main
 ```
 
-### 📄 License
+### License
 
 This project is part of the **ProU Fullstack Assessment** and intended exclusively for evaluation.
 
 ---
 
-### ❤️ Acknowledgements
+### Assumptions & Bonus Features Implemented
+
+## Assumptions
+
+ - The system is designed for use by Admin and Manager roles only.
+
+ - Employee accounts are not intended to log in; instead, employees are managed by Admin/Manager through the dashboard.
+
+ - The backend API expects valid JWT tokens for all protected routes, and the frontend assumes the token is stored in localStorage via Zustand persist.
+
+ - Basic CRUD operations for Employees and Tasks assume a clean, pre-configured MongoDB instance.
+
+ - All API endpoints follow a RESTful structure under /api/*.
+
+## Bonus Features Implemented
+
+ - Automatic Login After Registration
+   When a user registers, the system immediately logs them in and redirects them to the dashboard.
+
+ - Role-Based Authorization (Admin & Manager)
+   Certain UI actions and API capabilities are available only based on the user’s role.
+
+ - Fully Responsive Frontend UI
+   The dashboard and forms are optimized for desktop and mobile screens.
+
+ - Protected Routes on Frontend
+   Users cannot access the dashboard without a valid JWT token.
+
+ - Global State Management with Zustand (Persist Enabled)
+   Auth state remains intact across page reloads and sessions.
+
+ - Token Injection Using Axios Interceptors
+   Every request automatically includes the auth token for smoother UX.
+
+ - Search, Filters, and Pagination for Employees & Tasks
+   Admin/Manager can easily navigate large data sets.
+
+ - Task Status Visualization on Dashboard (Analytics Summary API)
+   Includes overview stats such as total tasks, completed tasks, pending tasks, etc.
+
+---
+
+### Acknowledgements
 
 Designed & developed with attention to detail, focusing on:
 
