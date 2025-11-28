@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+.input {
+  @apply w-full border p-2 rounded mb-3;
+}
+.glass {
+  @apply bg-white/10 backdrop-blur-md shadow-lg rounded-xl;
+}
+.dark body {
+  @apply bg-[#0f0f0f] text-gray-100;
+}
+.input {
+  @apply w-full border p-2 rounded bg-gray-50 focus:ring-2 focus:ring-brand focus:border-brand transition;
+}
+.dark .glass {
+  @apply bg-white/10 backdrop-blur-md border-white/10;
+}
